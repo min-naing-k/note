@@ -1,0 +1,2 @@
+ssh-keygen => generate new our computer's/laptop's key
+cat ~/.ssh/id_rsa.pub => show our generated ssh key
