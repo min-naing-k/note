@@ -13,4 +13,5 @@ git clean -f => delete only new incoming file before modify state
 git clean -fd => delete new incoming file/folder before modify state
 git reset --hard (commit's id) => delete all old commits before that commit's id
 git branch -d (branch's name) => delete the branch
-
+git reset --soft HEAD~1 => undo commit after committed
+git reset => undo modified state after modified
