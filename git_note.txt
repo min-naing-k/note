@@ -1,3 +1,11 @@
+<!============== init git ===============!>
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/min-naing-k/something.git
+git push -u origin main
+
 git init => initialize the git
 git status => watch the new file/folder or new changes
 git add . => add all new changes or new file/folder to the modify state
