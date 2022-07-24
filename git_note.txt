@@ -23,4 +23,5 @@ git reset --hard (commit's id) => delete all old commits before that commit's id
 git branch -d (branch's name) => delete the branch
 git reset --soft HEAD~1 => undo commit after committed
 git reset => undo modified state after modified
+git fetch => pull all code in every branch and main (not overwrite)
 rm -fr .git => remove the init git
