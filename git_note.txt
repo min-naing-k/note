@@ -27,3 +27,4 @@ git reset --hard HEAD~1 => delete commit after committed
 git reset => undo modified state after modified
 git fetch => pull all code in every branch and main (not overwrite)
 rm -fr .git => remove the init git
+git branch -m <new_name> => rename the local branch (you need to go the branch that you want to rename)
